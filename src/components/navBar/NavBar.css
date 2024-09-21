@@ -1,0 +1,107 @@
+.nav-bar {
+  background-color: #f3f3f3;
+  position: relative;
+}
+.nav-bar .container {
+  width: 95%;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.nav-bar .container .list {
+  gap: 10px;
+  padding: 10px 0;
+  position: relative;
+}
+.nav-bar .container .list .hover-list {
+  position: absolute;
+  background-color: #f2f2f2;
+  bottom: -165%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 10;
+  visibility: hidden;
+  box-shadow: -2px 9px 15px -4px rgba(50,45,45,0.65);
+  -webkit-box-shadow: -2px 9px 15px -4px rgba(50,45,45,0.65);
+  -moz-box-shadow: -2px 9px 15px -4px rgba(50,45,45,0.65);
+}
+.nav-bar .container .list:hover .hover-list {
+  visibility: visible;
+}
+.nav-bar .container .list img.admin-img {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+}
+.nav-bar .container .icon {
+  width: 25px;
+  cursor: pointer;
+}
+.nav-bar .container .icon.arrow {
+  width: 15px;
+  cursor: pointer;
+}
+.nav-bar .container p.name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-bar .nav-title {
+  position: absolute;
+  left: 50%;
+  bottom: -115%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background-color: #f3f3f3;
+  padding: 20px 40px;
+  border-radius: 0px 0px 41px 41px;
+  -webkit-border-radius: 0px 0px 41px 41px;
+  -moz-border-radius: 0px 0px 41px 41px;
+  -ms-border-radius: 0px 0px 41px 41px;
+  -o-border-radius: 0px 0px 41px 41px;
+}
+.nav-bar .nav-title p {
+  font-size: 30px;
+  font-weight: 300;
+  color: #0c0a34;
+}
+
+
+@media screen and (max-width:460px) {
+  .nav-bar .container p.name {
+    font-size: 17px;
+    font-weight: 700;
+}
+.nav-bar .container .list img.admin-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+}
+.nav-bar .container .icon.arrow {
+  width: 13px;
+  cursor: pointer;
+}
+.nav-bar .container .icon {
+  width: 20px;
+  cursor: pointer;
+}
+.nav-bar .container {
+  width: 95%;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+}

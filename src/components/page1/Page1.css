@@ -1,0 +1,86 @@
+.page1 {
+margin-top: 7rem;
+padding-right: 5rem;
+}
+.page1 .container {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.page1 .container .child {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+.page1 .container .child .child-name {
+  background-color: #f3f3f3;
+  font-size: 25px;
+  padding: 15px 35px 15px 30px;
+  font-weight: 500;
+  border-radius: 0px 28px 28px 0px;
+  -webkit-border-radius: 0px 28px 28px 0px;
+  -moz-border-radius: 0px 28px 28px 0px;
+  -ms-border-radius: 0px 28px 28px 0px;
+  -o-border-radius: 0px 28px 28px 0px;
+}
+.page1 .container .child .child-name p{
+color: #0C0A34;
+}
+.page1 .container .child .child-icons {
+gap: 4rem;
+}
+.page1 .container .child .child-icons span{
+gap: 1rem;
+cursor: pointer;
+user-select: none;
+}
+.page1 .container .child .child-icons span img{
+width: 60px;
+}
+.page1 .container .child .child-icons span p{
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+}
+
+
+/* responsive  */
+
+@media screen and (max-width:1260px) {
+  .page1 .container .child {
+    flex-direction: column;
+}
+.page1 .container .child .child-name {
+ border-radius: 28px;
+ -webkit-border-radius: 28px;
+ -moz-border-radius: 28px;
+ -ms-border-radius: 28px;
+ -o-border-radius: 28px;
+}
+.nav-bar .nav-title {
+  left: 46%;
+}
+}
+@media screen and (max-width:1100px) {
+  .page1 .container .child .child-icons {
+  flex-wrap: wrap;
+}
+.page1 .container .child .child-icons span {
+  width: 9rem;
+}
+}
+@media screen and (max-width:720px) {
+  .nav-bar .nav-title p {
+    font-size: 25px;
+}
+.nav-bar .nav-title {
+  bottom: -95%;
+  padding: 10px 35px;
+}
+.page1 .container .child .child-name {
+  font-size: 20px;
+}
+.nav-bar .nav-title {
+  left: 43%;
+}
+}
