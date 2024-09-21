@@ -6,6 +6,7 @@
   width: 95%;
   justify-content: flex-start;
   gap: 2rem;
+  position: relative;
 }
 .nav-bar .container .list {
   gap: 10px;
@@ -75,6 +76,23 @@
   color: #0c0a34;
 }
 
+.nav-bar .container .side-bar-icon{
+position: absolute;
+right: 20px ;
+top: 50%;
+transform: translateY(-50%);
+}
+.nav-bar .container .side-bar-icon .icon{
+font-size: 35px;
+display: none !important;
+}
+
+@media screen and (max-width:1262px) {
+  .nav-bar .container .side-bar-icon .icon{
+   display: flex !important;
+    }
+    
+}
 
 @media screen and (max-width:460px) {
   .nav-bar .container p.name {

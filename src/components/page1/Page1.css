@@ -45,7 +45,7 @@
 
 /* responsive  */
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1262px) {
   .page1 .container .child {
     flex-direction: column;
   }
@@ -59,6 +59,11 @@
   .nav-bar .nav-title {
     left: 46%;
   }
+  .page1 {
+padding: 7rem 0 3rem;
+    padding-right: unset;
+    margin: unset;
+}
 }
 @media screen and (max-width: 1100px) {
   .page1 .container .child .child-icons {

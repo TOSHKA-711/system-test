@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFileCircleXmark,
   faFilePdf,
-} from "@fortawesome/free-solid-svg-icons"; // Example icon
+} from "@fortawesome/free-solid-svg-icons";
 import BasicTable from "../../items/Table";
 import NavBar from "../navBar/NavBar";
 
