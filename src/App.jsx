@@ -1,5 +1,5 @@
 import "./App.css";
-import Page1 from "./components/Page1/Page1";
+import Page1 from "./components/page1/Page1";
 import Page2 from "./components/Page2/Page2";
 import SideBar from "./components/sideBar/SideBar";
 import { BrowserRouter } from "react-router-dom";
